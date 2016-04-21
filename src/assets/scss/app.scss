@@ -1,0 +1,35 @@
+@import 'settings';
+@import 'foundation';
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.greeting{
+  padding: 20px;
+  h1{
+    font-family: 'Anton', sans-serif;
+    color: #022F80;
+  }
+}
+.list{
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+  color: #022F80;
+}
+ul{
+  font-family: 'Open Sans', sans-serif;
+  color: #022F80;
+}
+p{
+  color: #022F80;
+  font-weight: 600;
+}
+.icon{
+  width: 1.5em;
+  float: right;
+}
+.icon-p{
+  margin: 0;
+  padding: 5px 0;
+  font-size: 12px;
+}
